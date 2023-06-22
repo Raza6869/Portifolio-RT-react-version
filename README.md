@@ -12,6 +12,6 @@ This project was beginned in June 06, 2023. Proposeful to show my competences an
 
 ## Projects
 
-### Going By The Dark ➤
+### Going By The Dark ➟
 
 
