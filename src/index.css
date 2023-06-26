@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "ADAMCG";
-    src: url("./Fonts/ADAM.CG_PRO.otf");
+  font-family: "ADAMCG";
+  src: url("./Fonts/ADAM.CG_PRO.otf");
 }

@@ -12,7 +12,8 @@ module.exports = {
       },
       backgroundImage: {
         'raza-logo': "url('/imagens/raza-logo-semfundo.png')",
-        'home': "url('/imagens/download.jpeg')"
+        'home': "url('/imagens/download.jpeg')",
+        'contact': "url('/imagens/contacts-back.png')"
       }
     },
   },
