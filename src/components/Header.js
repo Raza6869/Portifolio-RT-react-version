@@ -1,9 +1,9 @@
 export default function Header(){
     return(
         <header>
-            <div className="flex justify-between p-6 items-center">
+            <div className="flex justify-between px-16 py-8 items-center">
             <nav>
-                <ul className='flex gap-5'> 
+                <ul className='flex gap-10 text-lg'> 
                     <li className='text-red-600 hover:text-white hover:scale-125 transition ease duration-75 delay-150'><a href="/">Sobre</a></li>
                     <li className='text-red-600 hover:text-white hover:scale-125 transition ease duration-75 delay-150'><a href="/">Projetos</a></li>
                     <li className='text-red-600 hover:text-white hover:scale-125 transition ease duration-75 delay-150'><a href="/">Contato</a></li>

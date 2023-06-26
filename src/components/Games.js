@@ -4,7 +4,7 @@ export default function Games(){
         <div className="w-1/2 ml-10 p-10">
             <h1 className='text-red-800 text-8xl font-black shadow-lg text-center font-adamcg '>GOING BY THE DARK</h1>
             <p className='text-white text-justify text-xl p-5 bg-black/50 rounded shadow-xl shadow-zinc-900 mb-6 mt-10'>Meu primeiro jogo com arte, direção criativa e roteiro feito por mim. Quatro jovens
-                adultos vivem suas vidas acadêmicas em uma pequena cidade na Inglaterra, mas um 
+                adultos vivem suas vidas acadêmicas em uma pequena cidade no Brasil, mas um 
                 asssassino aparece na cidade para atormenta-los e trazer seus passados a tona,
                 mas, existe mesmo um assassino? Ou eles estão ficando loucos? <br></br> <br></br>
                 
