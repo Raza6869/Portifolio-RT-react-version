@@ -1,6 +1,6 @@
 
 import './index.css';
-
+import razaLogo from "./Desenhos/raza-logo-semfundo.png"
 
 import Header from "./components/Header"
 import Home from "./components/Home"
@@ -60,34 +60,23 @@ export default function App() {
       
       </div>
 
-      <div id='footer' className='bg-zinc-950 h-2/4 flex justify-around text-white p-16 font-open text-xl font-medium items-center'>
+      <div id='footer' className='bg-zinc-950 flex justify-around text-white p-11 font-open text-xl font-medium items-center'>
         <div className=''>
-        </div>
-            <img src='url("./Desenhos/raza-logo-semfundo.png")' alt='raza logo'/>
-        <div>
-          <ul className='flex flex-col gap-3'>
-            <li className='hover:font-semibold'>Contact</li>
-            <li className='hover:font-semibold'>Privacy</li>
-            <li className='hover:font-semibold'>Cookies</li>
-          </ul>
+          <img src={razaLogo} alt='raza logo' className='h-72'/>
+        </div >
+            
+        <div className='-ml-24 text-3xl'>
+          <a href='/'>Rafael Thumaza</a>
         </div>
 
-        <div >
-          <ul className='flex flex-col gap-3'>
-            <li className='hover:font-semibold'>Contact</li>
-            <li className='hover:font-semibold'>Privacy</li>
-            <li className='hover:font-semibold'>Cookies</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul className='flex flex-col gap-3'>
-            <li className='hover:font-semibold'>Contact</li>
-            <li className='hover:font-semibold'>Privacy</li>
-            <li className='hover:font-semibold'>Cookies</li>
-          </ul>
+        <div className='text-4xl flex gap-2'>
+          <a href="/"><i className='bx bxl-whatsapp text-white text-center hover:font-semibold'></i></a>
+          <a href="/"><i className='bx bxl-instagram text-white text-center hover:font-semibold'></i></a>
+          <a href="/"><i className='bx bxl-github text-white text-center hover:font-semibold' ></i></a>
+          <a href="/"><i className='bx bxl-linkedin-square text-white text-center hover:font-semibold' ></i></a>
         </div>
       </div>
+      
 
   </body>    
   );
