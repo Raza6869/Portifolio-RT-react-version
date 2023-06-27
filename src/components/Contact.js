@@ -7,12 +7,7 @@ export default function Contact() {
             <input type='mail' name='mail' id='mail' placeholder={"Seu e-mail"} className='pl-5 h-11 rounded'/>
             <input type='text' name='phone' id='phone' placeholder="Seu telefone" className='pl-5 h-11 rounded'/>
             <input type='text' name='message' id='message' placeholder="Deixe uma mensagem para mim!" className='pl-5 h-24 rounded pb-10'/>
-            <div className="flex gap-11 text-8xl justify-center mt-5">
-                <a href="/"><i className='bx bxl-whatsapp text-white text-center hover:scale-125 transition ease duration-75 delay-150'></i></a>
-                <a href="/"><i className='bx bxl-instagram text-white text-center hover:scale-125 transition ease duration-75 delay-150'></i></a>
-                <a href="/"><i className='bx bxl-github text-white text-center hover:scale-125 transition ease duration-75 delay-150' ></i></a>
-                <a href="/"><i className='bx bxl-linkedin-square text-white text-center hover:scale-125 transition ease duration-75 delay-150' ></i></a>
-            </div>
+           
           </forms>
 
           <div className='bg-raza-logo bg-contain w-1/2 bg-no-repeat bg-[center_right_3rem]'></div>

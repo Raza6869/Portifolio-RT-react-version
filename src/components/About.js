@@ -12,7 +12,7 @@ export default function AbouMe(){
                     <div className='w-3/4 p-10'>
                         <h1 className='text-6xl font-adamcg text-left mb-8'>Um pouco sobre mim</h1>
                         <p className='font-open text-xl text-justify'>
-                        Trabalho como freelancer há 1 ano em projetos de Front end, designer e ilustrador, carregando uma experiência com desenvolvimento 
+                        Trabalho como freelancer há 1 ano em projetos de Front end, designe e ilustração digital, carregando uma experiência com desenvolvimento 
                         de interface de sites e estrutura de dados. <br/><br/> 
                         Desenvolvo jogos de terror com foco no estilo de arte em pixel e aventuras exploratórias. Quero erguer o mercado brasileiro nos 
                         Horror Indies Games com foco em nossa realidade sociocultural. <br/><br/>
