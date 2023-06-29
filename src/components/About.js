@@ -4,12 +4,12 @@ import pssvg from "../SVG/photoshop.svg"
 export default function AbouMe(){
     return(
         <div>    
-            <div >
-                <div className='bg-red-900 flex flex-row-reverse m-16 rounded-xl'>      
+            <div className="py-20">
+                <div className='bg-red-900 flex justify-between flex-row-reverse mx-16 rounded-xl mb-10'>      
                     <div className=''>
                         <img src={razaperfil} alt='perfil raza' className='rounded-xl'/>
                     </div>
-                    <div className='w-3/4 p-10'>
+                    <div className='w-3/4 p-9'>
                         <h1 className='text-6xl font-adamcg text-left mb-8'>Um pouco sobre mim</h1>
                         <p className='font-open text-xl text-justify'>
                         Trabalho como freelancer há 1 ano em projetos de Front end, designe e ilustração digital, carregando uma experiência com desenvolvimento 
@@ -21,7 +21,7 @@ export default function AbouMe(){
                         </p>
                     </div>
                 </div>
-                <div className="text-center text-white flex flex-col gap-10 mb-24">
+                <div className="text-center text-white flex flex-col gap-10">
                     <h1 className="text-7xl font-adamcg text-red-600 ">Tecnologias que domino</h1>
                     <div className="flex justify-center text-[90pt] gap-8">
                         <i className='bx bxl-html5 hover:scale-110'></i>

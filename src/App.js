@@ -11,15 +11,15 @@ import AbouMe from './components/About';
 
 export default function App() {
   return (
-    <body className='h-screen bg-zinc-950 overflow-auto scroll-smooth'>
-      <div className=' text-white bg-home bg-cover w-full h-[800px] bg-fixed' id="home container">
+    <body className='h-screen bg-zinc-950'>
+      <div className=' text-white bg-home bg-cover w-full h-[800px] bg-fixed ' id="home container">
         
         <Header />
 
         <Home />
       </div>
 
-      <div id='About-me' className='text-white '>
+      <div id='About-me' className='text-white bg-zinc-950'>
         <AbouMe/>
       </div>
 
