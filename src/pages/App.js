@@ -62,7 +62,7 @@ export default function App() {
       
       </div>
 
-      <div id='footer' className='bg-zinc-950 flex justify-around text-white p-11 font-open text-xl font-medium items-center'>
+      <div id='footer' className='bg-zinc-950 flex justify-around text-white py-2 font-open text-xl font-medium items-center'>
         <div className=''>
           <img src={razaLogo} alt='raza logo' className='h-72'/>
         </div >
