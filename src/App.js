@@ -1,13 +1,13 @@
 
-import '../index.css';
-import razaLogo from "../Desenhos/raza-logo-semfundo.png"
+import './index.css';
+import razaLogo from "./Desenhos/raza-logo-semfundo.png"
 
-import Header from "../components/Header"
-import Home from "../components/Home"
-import Games from "../components/Games"
-import DesenhosData from "../components/DesenhosData"
-import Contact from '../components/Contact';
-import AbouMe from '../components/About';
+import Header from "./components/Header"
+import Home from "./components/Home"
+import Games from "./components/Games"
+import DesenhosData from "./components/DesenhosData"
+import Contact from './components/Contact';
+import AbouMe from './components/About';
 
 export default function App() {
 
@@ -62,7 +62,7 @@ export default function App() {
       
       </div>
 
-      <div id='footer' className='bg-zinc-950 flex justify-around text-white p-11 font-open text-xl font-medium items-center'>
+      <div id='footer' className='bg-zinc-950 flex justify-around text-white py-2 font-open text-xl font-medium items-center'>
         <div className=''>
           <img src={razaLogo} alt='raza logo' className='h-72'/>
         </div >
