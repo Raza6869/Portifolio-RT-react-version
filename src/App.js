@@ -1,13 +1,13 @@
 
-import '../index.css';
-import razaLogo from "../Desenhos/raza-logo-semfundo.png"
+import './index.css';
+import razaLogo from "./Desenhos/raza-logo-semfundo.png"
 
-import Header from "../components/Header"
-import Home from "../components/Home"
-import Games from "../components/Games"
-import DesenhosData from "../components/DesenhosData"
-import Contact from '../components/Contact';
-import AbouMe from '../components/About';
+import Header from "./components/Header"
+import Home from "./components/Home"
+import Games from "./components/Games"
+import DesenhosData from "./components/DesenhosData"
+import Contact from './components/Contact';
+import AbouMe from './components/About';
 
 export default function App() {
 
