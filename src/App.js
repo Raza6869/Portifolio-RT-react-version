@@ -13,7 +13,7 @@ import {Link, Outlet} from "react-router-dom";
 export default function App() {  
   return (
     <body className='h-screen bg-zinc-950 overflow-x-hidden'>
-      <div className=' text-white bg-home bg-cover   bg-[bottom_left_24rem] w-full h-[800px] bg-fixed ' id="home container">
+      <div className='text-white bg-home md:bg-repeat bg-cover md:bg-[bottom_left_24rem] w-full md:h-[800px] bg-fixed sm:h-4/5 sm:bg-center sm:bg-no-repeat' id="home container">
         
         <Header />
 
