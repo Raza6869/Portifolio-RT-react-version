@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 import sketch1 from "../Desenhos/artebw3.jpg"
 import sketch2 from "../Desenhos/artebw4.jpg"
 import sketch3 from "../Desenhos/artebw5.jpg"
@@ -20,7 +22,13 @@ export default function Sketch(){
     return(
             sketchData.map(function(item){
                 return(
-                    <img src={item.sketch} alt="arte do raza" className="rounded-2xl flex-none "/>
+                    <motion.img 
+                    initial={{ opacity: 0, translateX: 400}}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    exit={{opacity: 0, translateX: -400}}
+                    transition={{
+                        type: "spring",
+                        duration: 1}} src={item.sketch} alt="arte do raza" className="rounded-2xl flex-none shadow-lg shadow-black"/>
                     )
                 }
             )
