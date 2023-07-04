@@ -12,7 +12,7 @@ export default function Home(){
                     duration: 1,
                     delay: .3 }}
                     
-                className="text-4xl ml-1 text-red-600 tracking-tight">Olá! Meu nome é Rafael Thumaza</motion.h2>
+                className="md:text-4xl ml-1 text-red-600 tracking-tight sm:text-[17pt] sm:ml-0">Olá! Meu nome é Rafael Thumaza</motion.h2>
                 <motion.h1
                 initial={{ opacity: 0, translateX: -200}}
                 animate={{ opacity: 1, translateX: 0}}
@@ -20,9 +20,9 @@ export default function Home(){
                     type: "spring",
                     duration: .5,
                     delay: 1 }}
-                className='text-8xl font-adamcg tracking-tighter'><span className='text-red-600'>FRONT-END</span> DEVELOPER</motion.h1>
+                className='md:text-8xl font-adamcg tracking-tighter sm:text-6xl'><span className='text-red-600'>FRONT-END</span> DEVELOPER</motion.h1>
             </div>
-            <div className="flex gap-4 text-4xl tracking-normal font-open">
+            <div className="flex md:gap-4 md:text-4xl tracking-normal font-open sm:text-[18pt] sm:gap-0">
                 <motion.p initial={{ opacity: 0, translateY: 200}}
                 animate={{ opacity: 1, translateY: 0}}
                 transition={{ 
@@ -54,14 +54,14 @@ export default function Home(){
                     duration: .5,
                     delay: 3 }}>Desgner UI/UX</motion.p>
             </div>
-            <div className="text-justify text-2xl">
+            <div className="text-justify md:text-2xl sm:text-lg">
                 <motion.p 
                 initial={{ opacity: 0, translateX: 200}}
                 animate={{ opacity: 1, translateX: 0}}
                 transition={{ 
                     type: "spring",
                     duration: .8,
-                    delay: 3.4 }}className='w-[515px] ml-[505px]'> CEO dos (Pa)Ladinos, estudante de Engenharia
+                    delay: 3.4 }}className='md:w-[515px] md:ml-[505px] sm:w-[300px] sm:ml-[350px]'> CEO dos (Pa)Ladinos, estudante de Engenharia
                     de software pela UNIASSELVI e construindo um 
                     nome para o Brasil no mercado de games de 
                     terror indie.

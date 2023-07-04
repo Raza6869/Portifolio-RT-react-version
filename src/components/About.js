@@ -15,12 +15,12 @@ export default function AbouMe(){
                     duration: 1.2,
                     delay: .6
                   }}
-                  className='bg-red-900 flex justify-between flex-row-reverse mx-16 rounded-xl mb-10'>      
-                    <div className=''>
-                        <img src={razaperfil} alt='perfil raza' className='rounded-xl'/>
+                  className='bg-red-900 md:flex md:justify-between md:flex-row-reverse mx-16 rounded-xl md:items-center mb-10 sm:flex-col sm:justify-center sm:items-center'>      
+                    <div className='sm:px-20'>
+                        <img src={razaperfil} alt='perfil raza' className='md:rounded-xl md:pt-0 sm:rounded-full sm:pt-5 sm:w-full'/>
                     </div>
-                    <div className='w-3/4 p-9'>
-                        <h1 className='text-6xl font-adamcg text-left mb-8'>Um pouco sobre mim</h1>
+                    <div className='md:w-3/4 p-9 sm:w-auto'>
+                        <h1 className='md:text-6xl sm:text-[35pt] sm:text-center font-adamcg text-left mb-8 '>Um pouco sobre mim</h1>
                         <p className='font-open text-xl text-justify'>
                         Trabalho como freelancer há 1 ano em projetos como Front end, designer e ilustração digital, carregando uma experiência com desenvolvimento 
                         de interface de sites e estrutura de dados. <br/><br/> 
@@ -40,8 +40,8 @@ export default function AbouMe(){
                     duration: 1.2,
                     delay: 1.2}}
                 className="text-center text-white flex flex-col gap-10">
-                    <h1 className="text-7xl font-adamcg text-red-600 ">Tecnologias que domino</h1>
-                    <div className="flex justify-center text-[90pt] gap-8">
+                    <h1 className="md:text-7xl sm:text-5xl font-adamcg text-red-600 ">Tecnologias que domino</h1>
+                    <div className="flex justify-center md:text-[90pt] sm:text-8xl md:gap-8 sm:gap-1">
                         <motion.i
                         whileHover={{scale: 1.5}}
                         className='bx bxl-html5 '
@@ -70,7 +70,7 @@ export default function AbouMe(){
                         whileHover={{scale: 1.5}}
                         src={pssvg} 
                         alt="photoshop" 
-                        className="w-[75pt] "/>
+                        className="md:w-[75pt] sm:w-[60pt]"/>
                     </div>
                 </motion.div>
             </div>
