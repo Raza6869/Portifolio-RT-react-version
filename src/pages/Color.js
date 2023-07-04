@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 import color2 from "../Desenhos/arte2.jpg"
 import color4 from "../Desenhos/arte4.jpg"
 import color5 from "../Desenhos/arte5.jpg"
@@ -34,7 +36,13 @@ export default function Color(){
     return(
             colorData.map(function(item){
                 return(
-                    <img src={item.color} alt="arte do raza" className="rounded-2xl flex-none "/>
+                    <motion.img 
+                    initial={{ opacity: 0, translateX: 400}}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    exit={{opacity: 0, translateX: -400}}
+                    transition={{
+                        type: "spring",
+                        duration: 1.4}} src={item.color} alt="arte do raza" className="rounded-2xl flex-none shadow-lg shadow-black"/>
                     )
                 }
             )

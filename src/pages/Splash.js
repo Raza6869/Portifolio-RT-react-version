@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 
 import splash1 from "../Desenhos/artesplash1.jpg"
 import splash2 from "../Desenhos/artesplash2.jpg"
@@ -23,7 +24,13 @@ export default function Splash(){
     return(
             splashData.map(function(item){
                 return(
-                    <img src={item.splash} alt="arte do raza" className="rounded-2xl flex-none "/>
+                    <motion.img 
+                    initial={{ opacity: 0, translateX: 400}}
+                    animate={{ opacity: 1, translateX: 0 }}
+                    exit={{opacity: 0, translateX: -400}}
+                    transition={{
+                        type: "spring",
+                        duration: 1}} src={item.splash} alt="arte do raza" className="rounded-2xl flex-none shadow-lg shadow-black"/>
                     )
                 }
             )

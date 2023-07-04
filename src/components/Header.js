@@ -1,22 +1,31 @@
+import {motion} from "framer-motion"
+
 export default function Header(){
     return(
-        <header>
+        <motion.header
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        transition={{
+            type:"spring",
+            duration: 1,
+            delay: 3.5
+        }}>
             <div className="flex justify-between px-16 py-8 items-center">
             <nav>
                 <ul className='flex gap-10 text-lg'> 
-                    <li className='text-red-600 hover:text-white hover:scale-125 transition ease duration-75 delay-150'><a href="/">Sobre</a></li>
-                    <li className='text-red-600 hover:text-white hover:scale-125 transition ease duration-75 delay-150'><a href="/">Projetos</a></li>
-                    <li className='text-red-600 hover:text-white hover:scale-125 transition ease duration-75 delay-150'><a href="/">Contato</a></li>
+                    <motion.li whileHover={{scale: 1.2}} className='text-red-600 hover:text-white'><a href="#About-me">Sobre</a></motion.li>
+                    <motion.li whileHover={{scale: 1.2}} className='text-red-600 hover:text-white'><a href="#Projetos">Projetos</a></motion.li>
+                    <motion.li whileHover={{scale: 1.2}} className='text-red-600 hover:text-white'><a href="#Contato">Contato</a></motion.li>
                 </ul>
             </nav>
             <div className="flex gap-2 text-3xl">
-                <a href="/"><i className='bx bxl-whatsapp hover:text-red-600 hover:scale-125 transition ease duration-75 delay-150'></i></a>
-                <a href="/"><i className='bx bxl-instagram hover:text-red-600 hover:scale-125 transition ease duration-75 delay-150'></i></a>
-                <a href="/"><i className='bx bxl-github hover:text-red-600 hover:scale-125 transition ease duration-75 delay-150' ></i></a>
-                <a href="/"><i className='bx bxl-linkedin-square hover:text-red-600 hover:scale-125 transition ease duration-75 delay-150' ></i></a>
+                <a href="/"><motion.i whileHover={{scale: 1.4}} className='bx bxl-whatsapp hover:text-red-600'></motion.i></a>
+                <a href="/"><motion.i whileHover={{scale: 1.4}} className='bx bxl-instagram hover:text-red-600'></motion.i></a>
+                <a href="/"><motion.i whileHover={{scale: 1.4}} className='bx bxl-github hover:text-red-600' ></motion.i></a>
+                <a href="/"><motion.i whileHover={{scale: 1.4}} className='bx bxl-linkedin-square hover:text-red-600'></motion.i></a>
             </div>
             </div>    
-        </header>
+        </motion.header>
     )
 }
 

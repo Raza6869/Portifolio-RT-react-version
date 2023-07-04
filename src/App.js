@@ -1,27 +1,26 @@
 
 import './index.css';
 import razaLogo from "./Desenhos/raza-logo-semfundo.png"
-
 import Header from "./components/Header"
 import Home from "./components/Home"
 import Games from "./components/Games"
-import DesenhosData from "./components/DesenhosData"
 import Contact from './components/Contact';
 import AbouMe from './components/About';
 
-export default function App() {
+import {Link, Outlet} from "react-router-dom";
 
-  
+
+export default function App() {  
   return (
-    <body className='h-screen bg-zinc-950'>
-      <div className=' text-white bg-home bg-cover w-full h-[800px] bg-fixed ' id="home container">
+    <body className='h-screen bg-zinc-950 overflow-x-hidden'>
+      <div className=' text-white bg-home bg-cover   bg-[bottom_left_24rem] w-full h-[800px] bg-fixed ' id="home container">
         
         <Header />
 
         <Home />
       </div>
 
-      <div id='About-me' className='text-white bg-zinc-950'>
+      <div className='text-white bg-about bg-cover bg-fixed'>
         <AbouMe/>
       </div>
 
@@ -44,11 +43,17 @@ export default function App() {
                   <h1 className='font-adamcg'>ILUSTRAÇÕES</h1>
               </div>
           </div>
-          <div>
+          <div className='bg-desenho bg-cover bg-fixed'>
+                <ul id="nav" className="text-red-800 text-5xl font-adamcg flex justify-center items-center mb-16 shadow-lg">
+                    <li><Link to='/Color' className="bg-zinc-900 p-10 hover:bg-red-900 hover:text-white transition-colors ease-in">Coloridos</Link></li>
+                    <li><Link to='/Sketch' className="bg-zinc-900 p-10 hover:bg-red-900 hover:text-white transition-colors ease-in">Sketchs</Link></li>
+                    <li><Link to='/Splash' className="bg-zinc-900 p-10 hover:bg-red-900 hover:text-white transition-colors ease-in">Splashs Arts</Link></li>
+                </ul>
 
-             <DesenhosData /> 
-
-          </div>
+                <div className='grid grid-cols-3 gap-10 p-8'>
+                    <Outlet/>
+                </div>
+        </div>
       </div>
 
       <div id='Contato' className='bg-zinc-950'>
