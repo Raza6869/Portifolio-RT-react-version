@@ -16,7 +16,7 @@ export default function AbouMe(){
                     delay: .6
                   }}
                   className='bg-red-900 md:flex md:justify-between md:flex-row-reverse mx-16 rounded-xl md:items-center mb-10 sm:flex-col sm:justify-center sm:items-center'>      
-                    <div className='sm:px-20'>
+                    <div className='sm:px-28'>
                         <img src={razaperfil} alt='perfil raza' className='md:rounded-xl md:pt-0 sm:rounded-full sm:pt-5 sm:w-full'/>
                     </div>
                     <div className='md:w-3/4 p-9 sm:w-auto'>
