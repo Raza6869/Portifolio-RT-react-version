@@ -10,16 +10,16 @@ export default function Contact() {
             type:"spring",
             delay: .8
           }}
-          className="flex flex-col gap-6  px-10 w-1/2 py-20 bg-red-700 rounded-xl mr-14">
+          className="flex flex-col gap-6 px-10 w-1/2 py-8 bg-red-700 rounded-xl mr-14">
 
             <h1 className='text-center text-white text-6xl font-adamcg font-bold mb-8'>FALE COMIGO!</h1>
-            <lavel for="name" className="text-white text-3xl -mb-4">Nome Completo</lavel>
+            <lavel for="name" className="text-white text-2xl -mb-4">Nome Completo</lavel>
             <input type='text' name='nome' id='name' placeholder={"Seu nome completo"} className='pl-5 h-11 rounded'/>
-            <lavel for="mail" className="text-white text-3xl -mb-4">E-mail</lavel>
+            <lavel for="mail" className="text-white text-2xl -mb-4">E-mail</lavel>
             <input type='mail' name='mail' id='mail' placeholder={"Seu e-mail"} className='pl-5 h-11 rounded'/>
-            <lavel for="phone" className="text-white text-3xl -mb-4">Número de Contato</lavel>
+            <lavel for="phone" className="text-white text-2xl -mb-4">Número de Contato</lavel>
             <input type='text' name='phone' id='phone' placeholder="Seu telefone" className='pl-5 h-11 rounded'/>
-            <lavel for="name" className="text-white text-3xl -mb-4">Deixe uma mensagem para mim!</lavel>
+            <lavel for="name" className="text-white text-2xl -mb-4">Deixe uma mensagem para mim!</lavel>
             <input type='text' name='message' id='message' placeholder="Deixe uma mensagem para mim!" className='pl-5 h-24 rounded pb-10'/>
             <button type="submit" name="submit" id="submit" className="p-6 bg-black rounded text-white text-2xl font-open font-semibold ">Enviar</button>
 
