@@ -1,24 +1,23 @@
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
+      colors: {
+        'red': '#fa0000',
+      },
       fontFamily: {
-        'adamcg': "ADAMCG, cursive",
-        'open': "Open Sans, sans-serif"
-
+        'gothic': 'Nanum Gothic, sans-serif',
+        'delaGothic': 'Dela Gothic One, cursive'
       },
       backgroundImage: {
-        'raza-logo': "url('/imagens/raza-logo-semfundo.png')",
-        'home': "url('/imagens/download.jpeg')",
-        'contact': "url('/imagens/contacts-back.png')",
-        'about': "url('/imagens/About-bg.jpg')",
-        'desenho': "url('/imagens/Desenhos-bg.jpg')"
-      }
+        'bgperfilbox':'url("/Images/RazaBackgroundPerfil.png")' 
+      },
     },
   },
   plugins: [],
 }
-
