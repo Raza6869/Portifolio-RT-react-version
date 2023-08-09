@@ -15,7 +15,6 @@ module.exports = {
         'delaGothic': 'Dela Gothic One, cursive'
       },
       backgroundImage: {
-        'bgperfilbox':'url("/Images/RazaBackgroundPerfil.png")' 
       },
     },
   },
