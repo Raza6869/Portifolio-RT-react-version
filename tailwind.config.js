@@ -9,10 +9,13 @@ module.exports = {
     extend: {
       colors: {
         'red': '#fa0000',
+        'blackRed':'#3B0000',
       },
       fontFamily: {
         'gothic': 'Nanum Gothic, sans-serif',
-        'delaGothic': 'Dela Gothic One, cursive'
+        'delaGothic': 'Dela Gothic One, cursive',
+        'justAnotherHand': 'Just Another Hand, cursive',
+        'vampiroOne': 'Vampiro One, cursive',
       },
       backgroundImage: {
       },

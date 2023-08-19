@@ -14,6 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Vampiro+One&display=swap" rel="stylesheet"></link>
       </head>/
       <body className={inter.className}>{children}</body>
     </html>

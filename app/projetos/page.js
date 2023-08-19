@@ -6,7 +6,7 @@ import "@/app/globals.css"
 export default function Projetos() {
   return (
     <main className="bg-black text-white">
-      <div className="bg-[url('../Images/ProjectsBackground1.png')] h-screen">
+      <div className="bg-[url('../Images/ProjectsBackground1.png')]  mb-20 bg-no-repeat">
         <Navbar/>
         <ProjeComp/>
       </div>
